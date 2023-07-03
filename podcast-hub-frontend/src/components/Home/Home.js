@@ -10,7 +10,6 @@ class Home extends React.Component {
       return (
 
         <div key={index} className="podcast-card">
-        
           <div className="podcast-title">
             {podcast.title}
             <div className="podcast-actions">
@@ -28,6 +27,8 @@ class Home extends React.Component {
               </Link>
             </div>
           </div>
+
+          
           <div className="podcast-image-container">
             <img className="podcast-image" src={podcast.image} alt={podcast.title} />
           </div>
