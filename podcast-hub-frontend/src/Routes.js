@@ -6,6 +6,7 @@ import Podcast from './components/Podcast/Podcast';
 import  Home1 from './components/Home1/Home1';
 import aboutu from './components/aboutpage/aboutu';
 import contact from './components/contactpage/contact';
+import Login from './components/Login/Login'
 class Routes extends React.Component {
   render() {
     const { podcasts, deletePodcast } = this.props
@@ -14,6 +15,7 @@ class Routes extends React.Component {
       
         <Route exact path="/podcast/:id" component={Podcast} />
         <Route exact path="/" component={Home1} />
+        <Route exact path="/Login" component={Login} />
         <Route exact path="/aboutu" component={aboutu} />
         <Route exact path="/contact" component={contact} />
         <Route exact path="/hom" render={() => {

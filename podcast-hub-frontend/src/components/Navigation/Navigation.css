@@ -18,7 +18,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  background-color: #fff;
+  background-color: #FFF;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -34,6 +34,10 @@
   color: #333;
   display: flex;
   align-items: center;
+}
+.logo:hover{
+  text-decoration: none;
+
 }
 
 .logo-icon {
@@ -53,19 +57,24 @@ header ul {
 }
 
 .nav-link {
+  padding: 10px;
   font-size: 1rem;
   color: #333;
   text-decoration: none;
+  text-decoration: none;
   transition: color 0.3s ease;
+  border-radius: 4%;
 }
 
 .nav-link:hover {
-  color: #007bff;
+  text-decoration: none;
+  color: #fff;
+  background-color: #4CAF50;
 }
 
 .link-container .navigation-button {
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #4CAF50;
   color: #fff;
   font-size: 1rem;
   text-decoration: none;
@@ -76,7 +85,8 @@ header ul {
 }
 
 .link-container .navigation-button:hover {
-  background-color: #0056b3;
+  background-color: #88d08a;
+  /* background-color: ; */
 }
 
 /* Animations */

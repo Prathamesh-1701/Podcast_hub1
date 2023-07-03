@@ -12,7 +12,7 @@ function FeedbackForm() {
     console.log('Form submitted:', { name, email, message });
     // Reset form fields
     setName('');
-    setEmail('');
+    setEmail(''); 
     setMessage('');
   };
 

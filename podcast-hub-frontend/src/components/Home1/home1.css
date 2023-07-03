@@ -1,3 +1,6 @@
+*{
+  text-decoration: none;
+}
 /* Style the featured episode section */
 .featured-episode {
     display: flex;
@@ -46,6 +49,7 @@
   
   /* Style the Listen Now button in the featured episode */
   .featured-episode button {
+    text-decoration: none;
     padding: 10px 20px;
     font-size: 18px;
     background-color: #4CAF50;
@@ -54,7 +58,27 @@
     border-radius: 5px;
     cursor: pointer;
   }
-  
+  /* .featured-episode button:hover{
+    text-decoration: none;
+    background-color: #9de4a0;
+  } */
+  .btnn{
+    
+    text-decoration: none !important;
+    color: white !important;
+    
+    
+  }
+  .btnn:hover{
+    background-color: rgb(172, 224, 178) !important;
+    text-decoration: none !important;
+    color: white !important;
+
+  }
+  .a{
+    text-decoration: none;
+color: white;
+  }
   /* Style the recent episodes section */
   .recent-episodes {
     background-color: #ffffff;

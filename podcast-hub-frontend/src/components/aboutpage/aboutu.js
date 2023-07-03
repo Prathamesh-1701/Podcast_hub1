@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import './aboutu.css';
 
 function AboutPage() {
@@ -51,9 +52,9 @@ function AboutPage() {
         <section>
           <h2>Join our Community</h2>
           <p>Sign up for a free account to start discovering and sharing your favorite podcasts with others.</p>
-          <a href="/" className="signup-button">
+          <Link to="/Login" className="signup-button">
             Sign Up Now
-          </a>
+          </Link>
         </section>
       </main>
 

@@ -40,7 +40,7 @@ class Navigation extends React.Component {
               </ul>
             </header>
             <div className="link-container">
-              <Link to="#" className="navigation-button" onClick={this.props.addPodcast1}>
+              <Link to="/Login" className="navigation-button" >
                 {/* Add Podcast */}
                 Log in
               </Link>

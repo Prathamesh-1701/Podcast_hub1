@@ -10,7 +10,7 @@ export default function Home1() {
           <img className="img-class"  src=".\imgs\featured-episode.jpg" alt="/" />
           <h2 style={{color: "black"}}>Featured Episode: Title of Episode</h2>
           <p style={{color: "black"}}>A brief description of the episode goes here</p>
-          <button>Listen Now</button>
+          <button className='btnn'><Link to="/Hom">Listen Now</Link></button>
         </section>
 
         <section className="recent-episodes">
@@ -32,7 +32,7 @@ export default function Home1() {
         <section className="about-us">
           <h2 style={{ color: 'white'  }}>About Podcast Hub</h2>
           <p style={{ color: 'white'  }}>A brief summary of what the podcast is about goes here</p>
-          <button>Learn More</button>
+          <button><Link to="/Aboutu"> Learn More </Link></button>
         </section>
       </main>
     </>
