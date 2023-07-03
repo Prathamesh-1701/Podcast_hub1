@@ -3,6 +3,9 @@
   margin: 0 auto;
   padding: 20px;
 }
+.feedback-form-container h2{
+  color: #45a049;
+}
 
 .form-group {
   margin-bottom: 20px;

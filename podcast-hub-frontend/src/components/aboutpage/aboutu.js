@@ -3,7 +3,7 @@ import './aboutu.css';
 
 function AboutPage() {
   return (
-    <div
+    <div 
       style={{
         width: "100vw",
 
@@ -14,7 +14,7 @@ function AboutPage() {
         padding: "2rem",
       }}
     >
-      <div
+      <div className='AboutB'
         style={{
           boxShadow: "0px 5px 20px rgba(0,0,0,0.150)",
           padding: "0 2rem",
@@ -23,13 +23,11 @@ function AboutPage() {
       >
         <h2 style={{ color: "white", fontWeight: "800" }}>Our Mission</h2>
         <p>
-          At Podcast Hub, our mission is to provide a platform for podcast
-          enthusiasts to discover, listen, and share their favorite podcasts
-          with others.
+        At Podcast Hub, we are driven by a singular mission: to provide a comprehensive platform for podcast enthusiasts worldwide. Our goal is to empower individuals to discover, listen, and share their favorite podcasts with others in a seamless and engaging manner. Through our user-friendly interface, users can explore an extensive catalog of diverse podcasts, spanning various genres and topics. They can listen to episodes, create personalized playlists, and share their recommendations with friends and fellow podcast lovers. We strive to cultivate a vibrant community where conversations flourish, fostering connections and meaningful interactions among podcast enthusiasts. Join us at Podcast Hub and embark on an exciting journey of audio exploration and discovery.rs.
         </p>
       </div>
 
-      <div
+      <div className='AboutB'
         style={{
           boxShadow: "0px 5px 20px rgba(0,0,0,0.150)",
           padding: "0 2rem",
@@ -66,7 +64,7 @@ function AboutPage() {
         </ul>
       </div>
 
-      <div
+      <div className='AboutB'
         style={{
           boxShadow: "0px 5px 20px rgba(0,0,0,0.150)",
           padding: "0 2rem",
@@ -85,17 +83,26 @@ function AboutPage() {
         </h2>
         <div style={{ display: "flex", gap: "40px" }}>
           <div className="founder-details">
-            <h4>John Smith</h4>
-            <p>Chief Executive Officer</p>
+            <h5>Prathamesh Dantkale</h5>
+            {/* <p>Chief Executive Officer</p> */}
           </div>
           <div className="founder-details">
-            <h4>Jane Doe</h4>
-            <p>Chief Content Officer</p>
+            <h5>Neha Patil</h5>
+            {/* <p>Chief Content Officer</p> */}
           </div>
+          <div className="founder-details">
+            <h5>Shravni Kanki</h5>
+            {/* <p>Chief Executive Officer</p> */}
+          </div>
+          <div className="founder-details">
+            <h5>Akash Padwale</h5>
+            {/* <p>Chief Content Officer</p> */}
+          </div>
+          
         </div>
       </div>
 
-      <div
+      <div className='AboutB'
         style={{
           boxShadow: "0px 5px 20px rgba(0,0,0,0.150)",
           padding: "1rem 2rem",

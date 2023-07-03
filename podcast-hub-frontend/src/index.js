@@ -4,10 +4,11 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom'
-
+import Footer from './footer/Footer'
 ReactDOM.render(
 <BrowserRouter>
   <App /> 
+  <Footer/>
 </BrowserRouter>,
 document.getElementById('root'));
 
