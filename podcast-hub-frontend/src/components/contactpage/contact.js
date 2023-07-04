@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './contact.css';
 
 function FeedbackForm() {
+  
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -19,11 +20,15 @@ function FeedbackForm() {
   return (
     <div className="feedback-form-container">
       <h2>Feedback Form</h2>
-      <form className="feedback-form" onSubmit={handleSubmit}>
+      <form className="feedback-form" 
+      action="https://formspree.io/f/myyqgqor"
+      method="POST">
+      
         <div className="form-group">
           <label htmlFor="name">Name:</label>
           <input
             type="text"
+            name="name"
             id="name"
             value={name}
             onChange={(e) => setName(e.target.value)}
@@ -35,6 +40,7 @@ function FeedbackForm() {
           <input
             type="email"
             id="email"
+            name="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
@@ -44,10 +50,13 @@ function FeedbackForm() {
           <label htmlFor="message">Message:</label>
           <textarea
             id="message"
+            name="message"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             required
-          ></textarea>
+          >
+            
+          </textarea>
         </div>
         <button type="submit">Submit</button>
       </form>
